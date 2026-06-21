@@ -1,0 +1,39 @@
+state = {
+	id = 649
+	name = "STATE_649"
+	state_category = tiny_island
+	manpower = 11532
+	impassable = yes # IEF: Makes the trade country island inaccessible by land.
+
+	history = {
+
+		owner = D87 # IEF: Transfers Galapagos from ECU to the trade country.
+		add_core_of = D87 # IEF: Gives the trade country a core on Galapagos.
+
+		buildings = {
+			infrastructure = 2 # IEF: Increased from vanilla 1.
+			5023 = {
+				naval_base = 1
+			}
+		}
+
+		victory_points = {
+			5023 1
+		}
+
+	}
+
+	resources = { # IEF: Adds large resource stockpile for the trade country.
+		oil = 5000
+		aluminium = 5000
+		rubber = 5000
+		tungsten = 5000
+		steel = 5000
+		chromium = 5000
+		coal = 5000
+	}
+
+	provinces = { 5023 }
+
+	local_supplies = 0.0
+}

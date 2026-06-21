@@ -1,0 +1,47 @@
+ideas = {
+	country = {	    
+		
+		D87_not_playable = { #IEF
+            available = {
+				tag = D87
+			}
+			allowed = {
+			    always = no
+				tag = D87
+			}
+			allowed_civil_war = {
+				has_government = neutrality
+			}
+			removal_cost = -1
+		
+		    modifier = {
+				conscription = -1
+			    consumer_goods_factor = 1
+				min_export = 1
+				local_resources_factor = 10
+				research_speed_factor = -99
+				political_power_cost = 3				
+			    industrial_capacity_factory = -999
+				industrial_capacity_dockyard = -999
+				production_speed_buildings_factor = -999				
+			    lend_lease_tension = 9999
+			    generate_wargoal_tension = 9999
+				join_faction_tension = 9999
+				send_volunteers_tension = 9999
+				guarantee_tension = 9999
+				agency_upgrade_time = 9999
+				drift_defence_factor = 1
+				enemy_justify_war_goal_time = 9999
+				justify_war_goal_time = 9999
+				ai_join_ally_desire_factor = -9999
+				communism_acceptance = -9999
+				democratic_acceptance = -9999
+				neutrality_acceptance = -9999
+				fascism_acceptance = -9999
+				communism_drift = -100
+				fascism_drift = -100
+				democratic_drift = -100
+			}
+		}		
+	}
+}

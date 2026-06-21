@@ -1,0 +1,32 @@
+capital = 649 #random state in st america, doesn't matter anyway
+
+set_oob = ""  #IEF
+set_technology = {}  #IEF
+
+set_convoys = 9999  #IEF
+
+add_ideas = { #IEF
+    free_trade
+	
+	D87_not_playable #this the neutrality idea
+}
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 100
+}
+
+create_country_leader = {
+	name = "Holy Doge"
+	desc = ""
+	picture = "gfx/leaders/D87/trade_country_doge.dds"
+	ideology = despotism
+	traits = {
+		#
+	}
+}

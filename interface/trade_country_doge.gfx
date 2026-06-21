@@ -1,0 +1,7 @@
+spriteTypes = {	
+
+	spriteType = { #IEF
+		name = "GFX_idea_D87_not_playable"
+		texturefile = "gfx/interface/ideas/D87_not_playable.dds"
+	}
+}
